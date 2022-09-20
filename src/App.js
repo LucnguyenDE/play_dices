@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PlayBoard from "./Baitap_xucxac/PlayBoard";
+import PlayResult from "./Baitap_xucxac/PlayResult";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App text-center">
+      <h1 style={{ fontSize: 50 }}>GAME ĐỔ XÚC XẮC </h1>
+      <PlayBoard />
+      <PlayResult />
     </div>
   );
 }
